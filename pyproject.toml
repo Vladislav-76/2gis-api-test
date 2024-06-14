@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "2gis-api-test"
+version = "0.1.0"
+description = ""
+authors = ["Vladislav"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+pytest = "^8.2.2"
+python-status = "^1.0.1"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.0.0"
+isort = "^5.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
