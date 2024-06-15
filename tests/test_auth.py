@@ -1,5 +1,7 @@
 from time import sleep
+
 from status import HTTP_200_OK, HTTP_401_UNAUTHORIZED
+
 from tests.settings import CORRECT_LOCATION_DATA
 
 
